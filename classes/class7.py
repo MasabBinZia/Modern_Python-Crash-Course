@@ -16,28 +16,28 @@ data: Dict[Key, Value] = {
     "zxc":{"a":1,"b":2}
     }
 
-# pprint.pprint(data)
-# print(data["fname"])
-# print(data["name"])
-# print(data["lname"])
-# print(data[100])
-# print(data["xyz"])
+pprint.pprint(data)
+print(data["fname"])
+print(data["name"])
+print(data["lname"])
+print(data[100])
+print(data["xyz"])
 
-# data["name"]= "Masab Bin Zia"
-# print(data["name"])
-# print(data.get["name","NA"])
+data["name"]= "Masab Bin Zia"
+print(data["name"])
+print(data.get["name","NA"])
 
-# print(data.keys())
-# print(data.values())
-# print(data.items())
+print(data.keys())
+print(data.values())
+print(data.items())
 
 
 
-# for v in data.values():
-#     print(v)
+for v in data.values():
+    print(v)
 
-# for k,v in data.items():
-#     print(f"Key:{k}, Value:{v}")
+for k,v in data.items():
+    print(f"Key:{k}, Value:{v}")
 
 keys :list[str]=['id',"Name","FirstName","Course"]
 
