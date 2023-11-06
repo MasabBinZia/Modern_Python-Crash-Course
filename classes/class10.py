@@ -125,3 +125,15 @@ def say_hello1(num1:int):
     print(num1)
 
 say_hello1(100)
+
+def factorial(x: int) -> int:
+    """This is a recursive function
+    to find the factorial of an integer"""
+    if x == 1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+        #       5*4*3*2*1
+
+num = 5
+print("The factorial of", num, "is", factorial(num))
